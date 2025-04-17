@@ -9,6 +9,8 @@ import "./styles/pitchdeck.css";
 
 const queryClient = new QueryClient();
 
+const basename = "/DeSciBoston2025/";
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
